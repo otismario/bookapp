@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reading App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Book App</h1>
+            <p>Books for Ninjas</p>
+
+            <form id="search-books">                
+                <input type="text" placeholder="Search books...">
+            </form>
+        </header>
+
+        <div id="book-list">
+            <h2 class="title">Books to Read </h2>
+            <ul>
+                <li>
+                    <span class="name">Name of the Wind</span>
+                    <span class="delete">delete</span>
+                </li>
+
+                <li>
+                    <span class="name">The wise Man's fear</span>
+                    <span class="delete">delete</span>
+                </li>
+
+                <li>
+                    <span class="name">Dead Men Tell No Tales</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <form id="add-books">
+                <input type="text">
+                <button for="adding">Add</button>
+            </form>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
